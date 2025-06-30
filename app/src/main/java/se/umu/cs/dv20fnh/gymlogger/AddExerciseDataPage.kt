@@ -2,6 +2,7 @@ package se.umu.cs.dv20fnh.gymlogger
 
 import android.app.DatePickerDialog
 import android.widget.Toast
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -164,7 +165,7 @@ class AddExerciseDataPage(trackerModel: TrackerModel){
                 Text(
                     text = stringResource(R.string.selected_date) + " " + selectedDate,
                     style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onBackground,
+                    color = if (isSystemInDarkTheme()) Color.White else Color.Black,
                     modifier = Modifier.padding(16.dp)
                 )
 

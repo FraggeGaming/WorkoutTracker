@@ -63,13 +63,17 @@ class RemoveTrackerPage(trackerModel: TrackerModel){
             ) {
 
                 //Select subtracker dropdown
-                Components.DropdownMenu(
-                    selected = selectedExercise,
-                    onClick = {
-                        model.setSelectedExercise(it)
-                    },
-                    items = exercises
-                )
+                if(selectedExercise.isNotEmpty()){
+                    Components.DropdownMenu(
+                        selected = selectedExercise,
+                        onClick = {
+                            model.setSelectedExercise(it)
+                        },
+                        items = exercises
+                    )
+                }
+
+
             }
 
             //Delete Tracker button
