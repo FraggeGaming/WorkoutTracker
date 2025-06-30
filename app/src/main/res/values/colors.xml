@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_color">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="button_color">#1976D2</color>
+    <color name="back_color">#F0F4FF</color>
+    <color name="box_color">#4f82b0</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+
+
+    <color name="d_nav_color">#212121</color>
+    <color name="d_on_primary">#FFFFFF</color>
+    <color name="d_button_color">#1976D2</color>
+    <color name="d_back_color">#1B1B1B</color>
+    <color name="d_box_color">#4f82b0</color>
+    <color name="d_text_color">#FFFFFF</color>
+    <color name="d_on_surface">#FFFFFF</color>
+</resources>
+

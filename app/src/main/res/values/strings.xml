@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tracker</string>
+
+    <string-array name="default_trackers">
+        <item>All Trackers</item>
+        <item>Additive Trackers</item>
+        <item>Multiplied Trackers</item>
+    </string-array>
+
+    <string name="no_workouts">No data found</string>
+
+    <string name="reset_graph">Reset Graph</string>
+    <string name="create_tracker">Create Tracker</string>
+    <string name="add_tracker">Add To Existing Tracker</string>
+    <string name="remove_tracker">Remove A Tracker And All Data</string>
+    <string name="t_welcome">Welcome to Tracker!</string>
+    <string name="t_text">Here you can create, modify and keep track of your data. Happy tracking!</string>
+    <string name="t_button_text">"Got it!"</string>
+    <string name="select_tracker">Select a tracker</string>
+    <string name="delete_tracker">Delete Tracker</string>
+    <string name="edit_tracker">Edit Tracker</string>
+    <string name="pick_tracker">Choose Tracker</string>
+    <string name="edit_f">Edit Field</string>
+    <string name="delete_f">Delete Field</string>
+    <string name="add_f">Add Field</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="field">Field</string>
+    <string name="remove">Remove</string>
+    <string name="selected_date">Selected Date:</string>
+    <string name="select_date">Select Date:</string>
+    <string name="toast_save">Please fill in all fields before saving.</string>
+
+    <string name="no_tracker">No Trackers</string>
+    <string name="trackers">Trackers</string>
+
+
+
+    <string name="cd_back">Back</string>
+    <string name="cd_next_dr">Next Date Range</string>
+    <string name="cd_prev_dr">Previous Date Range</string>
+    <string name="cd_graph">Graph page</string>
+    <string name="cd_add">Add tracker page</string>
+    <string name="cd_manage">Manage tracker page</string>
+
+
+
+</resources>
